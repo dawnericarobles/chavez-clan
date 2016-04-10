@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<script>
+
+    $("#flip").click(function(){
+        $("#panel").slideToggle("slow");
+    });
+
+
+    if (window.innerWidth < 750) {
+		$("#kin1").css({"padding": "40px"});
+		$("#kin2").css({"padding": "40px"});
+		$("#kin3").css({"padding": "40px"});
+		$("#kin4").css({"padding": "40px"});
+		$("#kin5").css({"padding": "40px"});
+		$("#kin6").css({"padding": "40px"});
+		$("#kin7").css({"padding": "40px"});
+		$("#kin8").css({"padding": "40px"});
+		$("#kin9").css({"padding": "40px"});
+
+	}
+
+	$("#rtParent").click(function(){
+		$("#Contain1").show();
+		$("#DivKin01").hide();
+		$("#DivKin02").hide();
+		$("#DivKin03").hide();
+		$("#DivKin04").hide();
+
+
+		if (window.innerWidth < 750) {
+			$("#kin1").show();
+			$("#kin2").show();
+			$("#kin3").show();
+			$("#kin4").show();
+			$("#kin5").show();
+			$("#kin6").show();
+			$("#kin7").show();
+			$("#kin8").show();
+			$("#kin9").show();
+
+			$("#kin1").css({"padding": "40px"});
+			$("#kin2").css({"padding": "40px"});
+			$("#kin3").css({"padding": "40px"});
+			$("#kin4").css({"padding": "40px"});
+			$("#kin5").css({"padding": "40px"});
+			$("#kin6").css({"padding": "40px"});
+			$("#kin7").css({"padding": "40px"});
+			$("#kin8").css({"padding": "40px"});
+			$("#kin9").css({"padding": "40px"});
+
+			$("#div3").hide();
+			$("#GoToMain").html(" ");
+		}
+		else {
+		$("#div3").hide();
+		}
+    });
+
+	$("#kin1").click(function(){
+		$("#div3").show();
+		$("#lblKin").html("<br /><br /><br /><b>PONCIANO and LAURA</b><br /><br /><br />");
+		$("#lblKinChild").html("MARIEFE <br />GINA <br />JENIFFER <br />ROBERTO <br />MARILOU <br />RANDY");
+		$("#DivKin01").show();
+		$("#DivKin02").hide();
+		$("#DivKin03").hide();
+		$("#DivKin04").hide();
+
+	     if (window.innerWidth < 750) {
+	     	$("#kin1").css({"padding": "25px"});
+			$("#kin2").hide();
+			$("#kin3").hide();
+			$("#kin4").hide();
+			$("#kin5").hide();
+			$("#kin6").hide();
+			$("#kin7").hide();
+			$("#kin8").hide();
+			$("#kin9").hide();
+			$("#GoToMain").html("<span style='color:red; font-size:12px; font-weight: bold;'><< Hey! Click me to go back...</span>");
+	     }
+    });
+
+	$("#kin2").click(function(){
+		$("#div3").show();
+		$("#lblKin").html("<br /><b>MANUEL and ZENY</b></br /></br />");
+		$("#lblKinChild").html("ZEN <br />MARIANNE <br />TES");
+		$("#DivKin02").show();
+		$("#DivKin01").hide();
+		$("#DivKin03").hide();
+		$("#DivKin04").hide();
+
+	     if (window.innerWidth < 750) {
+	     	$("#kin2").css({"padding": "25px"});
+			$("#kin1").hide();
+			$("#kin3").hide();
+			$("#kin4").hide();
+			$("#kin5").hide();
+			$("#kin6").hide();
+			$("#kin7").hide();
+			$("#kin8").hide();
+			$("#kin9").hide();
+			$("#GoToMain").html("<span style='color:red; font-size:12px; font-weight: bold;'><< Hey! Click me to go back...</span>");
+	     }
+    });
+
+	$("#kin3").click(function(){
+		$("#div3").show();
+		$("#lblKin").html("<br /><b>LILIA and NICANOR</b>");
+		$("#lblKinChild").html("LEILANI <br />ANTHONY JOHN");
+		$("#DivKin03").show();
+		$("#DivKin01").hide();
+		$("#DivKin02").hide();
+		$("#DivKin04").hide();
+
+	     if (window.innerWidth < 750) {
+	     	$("#kin3").css({"padding": "25px"});
+			$("#kin1").hide();
+			$("#kin2").hide();
+			$("#kin4").hide();
+			$("#kin5").hide();
+			$("#kin6").hide();
+			$("#kin7").hide();
+			$("#kin8").hide();
+			$("#kin9").hide();
+			$("#GoToMain").html("<span style='color:red; font-size:12px; font-weight: bold;'><< Hey! Click me to go back...</span>");
+	     }
+    });
+
+	$("#kin4").click(function(){
+		$("#div3").show();
+		$("#lblKin").html("<br /><b>PRIMITIVA and IGNOY</b><br /><br />");
+		$("#lblKinChild").html("ANNA MARIE <br />BENNIEDICK <br />CHERRIE ANNE");
+		$("#DivKin04").show();
+		$("#DivKin01").hide();
+		$("#DivKin02").hide();
+		$("#DivKin03").hide();
+
+	     if (window.innerWidth < 750) {
+	     	$("#kin4").css({"padding": "25px"});
+			$("#kin1").hide();
+			$("#kin2").hide();
+			$("#kin3").hide();
+			$("#kin5").hide();
+			$("#kin6").hide();
+			$("#kin7").hide();
+			$("#kin8").hide();
+			$("#kin9").hide();
+			$("#GoToMain").html("<span style='color:red; font-size:12px; font-weight: bold;'><< Hey! Click me to go back...</span>");
+	     }
+    });
+
+	$("#kin5").click(function(){
+		$("#div3").show();
+		$("#lblKin").html("<br /><br /><b>CORAZON and EXPEDITO</b></br /></br />");
+		$("#lblKinChild").html("EXZON <br />BRYAN <br />GRACE <br />JHAY-AR");
+	     if (window.innerWidth < 750) {
+	     	$("#kin5").css({"padding": "25px"});
+			$("#kin1").hide();
+			$("#kin2").hide();
+			$("#kin3").hide();
+			$("#kin4").hide();
+			$("#kin6").hide();
+			$("#kin7").hide();
+			$("#kin8").hide();
+			$("#kin9").hide();
+			$("#GoToMain").html("<span style='color:red; font-size:12px; font-weight: bold;'><< Hey! Click me to go back...</span>");
+	     }
+    });
+
+    $("#kin6").click(function(){
+    	$("#div3").show();
+		$("#lblKin").html("<br /><br /><b>SENEN and DIDES</b><br /><br /><br />");
+		$("#lblKinChild").html("MIGGIE <br />SEDRIC <br />LUISA <br />JON-JON <br />EVA");
+	     if (window.innerWidth < 750) {
+	     	$("#kin6").css({"padding": "25px"});
+			$("#kin1").hide();
+			$("#kin2").hide();
+			$("#kin3").hide();
+			$("#kin4").hide();
+			$("#kin5").hide();
+			$("#kin7").hide();
+			$("#kin8").hide();
+			$("#kin9").hide();
+			$("#GoToMain").html("<span style='color:red; font-size:12px; font-weight: bold;'><< Hey! Click me to go back...</span>");
+	     }
+    });
+
+
+	$("#kin7").click(function(){
+		$("#div3").show();
+		$("#lblKin").html("<br /><b>JULIANA and GILBERT</b></br /></br />");
+		$("#lblKinChild").html("GILLEANNE <br />JOANABELLE <br />GERARD");
+	     if (window.innerWidth < 750) {
+	     	$("#kin7").css({"padding": "25px"});
+			$("#kin1").hide();
+			$("#kin2").hide();
+			$("#kin3").hide();
+			$("#kin4").hide();
+			$("#kin5").hide();
+			$("#kin6").hide();
+			$("#kin8").hide();
+			$("#kin9").hide();
+			$("#GoToMain").html("<span style='color:red; font-size:12px; font-weight: bold;'><< Hey! Click me to go back...</span>");
+	     }
+    });
+
+	$("#kin8").click(function(){
+		$("#div3").show();
+		$("#lblKin").html("<br /><b>IGMEDIO and SUSAN</b></br /></br />");
+		$("#lblKinChild").html("ROBERT <br />ROSE <br />ANNE");
+	     if (window.innerWidth < 750) {
+	     	$("#kin8").css({"padding": "25px"});
+			$("#kin1").hide();
+			$("#kin2").hide();
+			$("#kin3").hide();
+			$("#kin4").hide();
+			$("#kin5").hide();
+			$("#kin6").hide();
+			$("#kin7").hide();
+			$("#kin9").hide();
+			$("#GoToMain").html("<span style='color:red; font-size:12px; font-weight: bold;'><< Hey! Click me to go back...</span>");
+	     }
+    });
+
+	$("#kin9").click(function(){
+		$("#div3").show();
+		$("#lblKin").html("<br /><b>MILAGROS and ESMUNDO</b></br /></br />");
+		$("#lblKinChild").html("DARYL <br />ERICA <br />DONNA");
+	     if (window.innerWidth < 750) {
+	     	$("#kin9").css({"padding": "25px"});
+			$("#kin1").hide();
+			$("#kin2").hide();
+			$("#kin3").hide();
+			$("#kin4").hide();
+			$("#kin5").hide();
+			$("#kin6").hide();
+			$("#kin7").hide();
+			$("#kin8").hide();
+			$("#GoToMain").html("<span style='color:red; font-size:12px; font-weight: bold;'><< Hey! Click me to go back...</span>");
+	     }
+    });
+
+});
+
+
+</script>
+
+<style>
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+	background-position: center;
+    border: solid 1px #c3c3c3;
+}
+
+#panel {
+    padding: 30px;
+    display: none;
+}
+
+body {
+	height: 90%;
+	content-align: center;
+	background-color: #323333;
+}
+
+
+.col-sm-12 {
+	align: center;
+}
+
+#rtParent {
+	background-color: #C9FBC9;
+	padding: 40px;
+	text-align: center;
+	font-size: 22px;
+	cursor:pointer;
+}
+
+#kin1, #kin3, #kin5,
+#kin7, #kin9 {
+	background-color: #F9DFEB;
+	padding: 50px;
+	text-align: center;
+	font-size: 22px;
+}
+
+#kin2, #kin4, #kin6, #kin8 {
+	background-color: #BDDAE6;
+	padding: 50px;
+	text-align: center;
+	font-size: 22px;
+}
+
+#kin1:hover, #kin2:hover, #kin3:hover,
+#kin4:hover, #kin5:hover, #kin6:hover,
+#kin7:hover, #kin8:hover, #kin9:hover
+{
+	background-color:#C6B7DB;
+	text-decoration: underline;
+	font-style: oblique;
+    font-weight: bold;
+    font-color: #E31A42;
+    border: 1px solid #73AD21;
+    cursor:pointer;
+}
+
+#ftr {
+	background-color: #3FB58E;
+	font-size: 16px;
+	text-align: center;
+	padding: 5px;
+	cursor:not-allowed;
+}
+
+
+#topNavbar {
+	background-color: #3FB58E;
+	font-size: 20px;
+	align: center;
+	width: 100%;
+}
+
+
+#kin101, #kin103, #kin105, #kin301, #kin401, #kin403 {
+	padding: 10px 5px 5px 15px;
+	background-color: #D0F897;
+	align: center;
+}
+
+#kin102, #kin104, #kin201, #kin402 {
+	padding: 10px 5px 5px 15px;
+	background-color: #F7928D;
+	align: center;
+}
+
+
+
+</style>
+</head>
+
+<body>
+
+    <div class="navbar navbar-default" role="navigation" id="topNavbar">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">History</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul><br />
+        </div>
+      </div>
+    </div>
+
+
+   <div class="container" id="Contain1">
+
+
+	<div id="div1">
+		<div class="row">
+			<div id="flip">Click to slide the panel down or up</div>
+			<div id="panel"><h1> CHAVEZ CLAN</h1><br /></div>
+		</div>
+
+
+		<div class="row">
+			<div class="col-sm-12"><br /></div>
+		</div>
+
+		<div class="row">
+  			<div class="col-sm-12" ID="rtParent">
+  			<b>MAMAY and NANAY</b>
+  			<p id="GoToMain"> </p>
+  			</div>
+		</div>
+	</div>
+
+	<div id="div2">
+		<div class="row">
+			<div class="col-sm-4" ID="kin1">PONCIANO</div>
+			<div class="col-sm-4" ID="kin2">MANUEL</div>
+			<div class="col-sm-4" ID="kin3">LILIA</div>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-4" ID="kin4">PRIMITIVA</div>
+			<div class="col-sm-4" ID="kin5">CORAZON</div>
+			<div class="col-sm-4" ID="kin6">SENEN</div>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-4" ID="kin7">JULIANA</div>
+			<div class="col-sm-4" ID="kin8">IGMEDIO</div>
+			<div class="col-sm-4" ID="kin9">MILAGROS</div>
+		</div>
+	</div>
+
+
+	<div id="div3" style="display: none;">
+		<div class="row">
+			<div class="col-sm-4" style="background-color:lavender; padding:10px; text-align:center;"> <p id="lblKin"></p> </div>
+			<div class="col-sm-8" style="background-color:lavenderblush; padding:10px; text-align:center;"> <p id="lblKinChild"></p> </div>
+		</div>
+	</div>
+
+   </div>
+
+
+<!-- START divs row for third generation -->
+	<div class="container" id="Contain2">
+		<div class="row" style="display: none;" ID="DivKin01">
+			<div class="col-sm-3" ID="kin101">
+				<span style="color:#DA1F7B; font-weight:bold;">GINA and Bong</span>
+				<br /><span style="color:#3D0BA0">
+				<ul>
+				  <li> Lei</li>
+				  <li> Mei</li>
+				  <li> Christian</li>
+				<ul><br /><br />
+				</span>
+			</div>
+			<div class="col-sm-3" ID="kin102">
+				<span style="color:#DA1F7B; font-weight:bold;">JENNIFFER and Jorge</span>
+				<br /><span style="color:#3D0BA0">
+				<ul>
+				  <li> Kyle</li>
+				  <li> Leanne</li>
+				  <li> Shanna</li>
+				  <li> Pauline</li>
+				  <li> Sean</li>
+				<ul>
+				</span>
+			</div>
+			<div class="col-sm-2" ID="kin103">
+				<span style="color:#DA1F7B; font-weight:bold;">ROBERT and Princess</span>
+				<br /><span style="color:#3D0BA0">
+				<ul>
+				  <li> Reeze</li>
+				  <li> Kimmie</li>
+				<ul><br /><br /><br />
+				</span>
+			</div>
+			<div class="col-sm-2" ID="kin104">
+				<span style="color:#DA1F7B; font-weight:bold;">MARILOU and Roldan</span>
+				<br /><span style="color:#3D0BA0">
+				<ul>
+				  <li> Dan-Dan</li>
+				  <li> Andrei</li>
+				<ul><br /><br /><br />
+				</span>
+			</div>
+			<div class="col-sm-2" ID="kin105">
+				<span style="color:#DA1F7B; font-weight:bold;">RANDY and Ada</span>
+				<br /><span style="color:#3D0BA0">
+				<ul>
+				  <li> Nicole</li>
+				  <li> Liam</li>
+				<ul><br /><br /><br />
+				</span>
+			</div>
+		</div> <!-- end div row kin1 -->
+
+		<div class="row" style="display: none;" ID="DivKin02">
+			<div class="col-sm-12" ID="kin201">
+				<span style="color:#DA1F7B; font-weight:bold;">MARRIANNE and Macko</span>
+				<br /><span style="color:#3D0BA0">
+				<ul>
+				  <li> Kalel</li>
+				<ul><br />
+				</span>
+			</div>
+
+		</div> <!-- end div row kin2 -->
+
+		<div class="row" style="display: none;" ID="DivKin03">
+			<div class="col-sm-12" ID="kin301">
+				<span style="color:#DA1F7B; font-weight:bold;">LEILANI and Franz</span>
+				<br /><span style="color:#3D0BA0">
+				<ul>
+				  <li> Liana</li>
+				  <li> Garrett</li>
+				<ul>
+				</span>
+			</div>
+
+		</div> <!-- end div row kin3 -->
+
+		<div class="row" style="display: none;" ID="DivKin04">
+			<div class="col-sm-4" ID="kin401">
+				<span style="color:#DA1F7B; font-weight:bold;">ANNA MARIE and Orly</span>
+				<br /><span style="color:#3D0BA0">
+				<ul>
+				  <li> Nina</li>
+				  <li> Ysabella</li>
+				  <li> Raine</li>
+				<ul>
+				</span>
+			</div>
+			<div class="col-sm-4" ID="kin402">
+				<span style="color:#DA1F7B; font-weight:bold;">BENNIEDICK and Anne</span>
+				<br /><span style="color:#3D0BA0">
+				<ul>
+				  <li> Rafael</li>
+				<ul><br /><br />
+				</span>
+			</div>
+			<div class="col-sm-4" ID="kin403">
+				<span style="color:#DA1F7B; font-weight:bold;">CHERRIE ANNE and <i>Lopez</i></span>
+				<br /><span style="color:#3D0BA0">
+				<ul>
+				  <li> Jade Immanuel</li>
+				<ul><br /><br />
+				</span>
+			</div>
+		</div> <!-- end div row kin4 -->
+
+
+	</div>
+<!-- START divs row for third generation -->
+
+
+	<div class="container" id="Contain3">
+		<div class="row">
+			<br />
+			<div class="col-sm-12" ID="ftr"><small>&copy; Copyright 2016, dawnericachavezrobles </small></div>
+		</div>
+	</div>
+
+
+</body>
+</html>
