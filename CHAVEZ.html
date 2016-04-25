@@ -9,6 +9,7 @@
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 <script>
+$(document).ready(function(){
 
     $("#flip").click(function(){
         $("#panel").slideToggle("slow");
@@ -34,6 +35,11 @@
 		$("#DivKin02").hide();
 		$("#DivKin03").hide();
 		$("#DivKin04").hide();
+		$("#DivKin05").hide();
+		$("#DivKin06").hide();
+		$("#DivKin07").hide();
+		$("#DivKin08").hide();
+		$("#DivKin09").hide();
 
 
 		if (window.innerWidth < 750) {
@@ -73,6 +79,12 @@
 		$("#DivKin02").hide();
 		$("#DivKin03").hide();
 		$("#DivKin04").hide();
+		$("#DivKin05").hide();
+		$("#DivKin06").hide();
+		$("#DivKin07").hide();
+		$("#DivKin08").hide();
+		$("#DivKin09").hide();
+
 
 	     if (window.innerWidth < 750) {
 	     	$("#kin1").css({"padding": "25px"});
@@ -96,6 +108,11 @@
 		$("#DivKin01").hide();
 		$("#DivKin03").hide();
 		$("#DivKin04").hide();
+		$("#DivKin05").hide();
+		$("#DivKin06").hide();
+		$("#DivKin07").hide();
+		$("#DivKin08").hide();
+		$("#DivKin09").hide();
 
 	     if (window.innerWidth < 750) {
 	     	$("#kin2").css({"padding": "25px"});
@@ -119,6 +136,11 @@
 		$("#DivKin01").hide();
 		$("#DivKin02").hide();
 		$("#DivKin04").hide();
+		$("#DivKin05").hide();
+		$("#DivKin06").hide();
+		$("#DivKin07").hide();
+		$("#DivKin08").hide();
+		$("#DivKin09").hide();
 
 	     if (window.innerWidth < 750) {
 	     	$("#kin3").css({"padding": "25px"});
@@ -142,6 +164,11 @@
 		$("#DivKin01").hide();
 		$("#DivKin02").hide();
 		$("#DivKin03").hide();
+		$("#DivKin05").hide();
+		$("#DivKin06").hide();
+		$("#DivKin07").hide();
+		$("#DivKin08").hide();
+		$("#DivKin09").hide();
 
 	     if (window.innerWidth < 750) {
 	     	$("#kin4").css({"padding": "25px"});
@@ -161,6 +188,17 @@
 		$("#div3").show();
 		$("#lblKin").html("<br /><br /><b>CORAZON and EXPEDITO</b></br /></br />");
 		$("#lblKinChild").html("EXZON <br />BRYAN <br />GRACE <br />JHAY-AR");
+		$("#DivKin05").show();
+		$("#DivKin01").hide();
+		$("#DivKin02").hide();
+		$("#DivKin03").hide();
+		$("#DivKin04").hide();
+		$("#DivKin06").hide();
+		$("#DivKin07").hide();
+		$("#DivKin08").hide();
+		$("#DivKin09").hide();
+
+
 	     if (window.innerWidth < 750) {
 	     	$("#kin5").css({"padding": "25px"});
 			$("#kin1").hide();
@@ -179,6 +217,16 @@
     	$("#div3").show();
 		$("#lblKin").html("<br /><br /><b>SENEN and DIDES</b><br /><br /><br />");
 		$("#lblKinChild").html("MIGGIE <br />SEDRIC <br />LUISA <br />JON-JON <br />EVA");
+		$("#DivKin06").show();
+		$("#DivKin01").hide();
+		$("#DivKin02").hide();
+		$("#DivKin03").hide();
+		$("#DivKin04").hide();
+		$("#DivKin05").hide();
+		$("#DivKin07").hide();
+		$("#DivKin08").hide();
+		$("#DivKin09").hide();
+
 	     if (window.innerWidth < 750) {
 	     	$("#kin6").css({"padding": "25px"});
 			$("#kin1").hide();
@@ -216,6 +264,16 @@
 		$("#div3").show();
 		$("#lblKin").html("<br /><b>IGMEDIO and SUSAN</b></br /></br />");
 		$("#lblKinChild").html("ROBERT <br />ROSE <br />ANNE");
+		$("#DivKin08").show();
+		$("#DivKin01").hide();
+		$("#DivKin02").hide();
+		$("#DivKin03").hide();
+		$("#DivKin04").hide();
+		$("#DivKin05").hide();
+		$("#DivKin06").hide();
+		$("#DivKin07").hide();
+		$("#DivKin09").hide();
+
 	     if (window.innerWidth < 750) {
 	     	$("#kin8").css({"padding": "25px"});
 			$("#kin1").hide();
@@ -331,13 +389,14 @@ body {
 }
 
 
-#kin101, #kin103, #kin105, #kin301, #kin401, #kin403 {
+#kin101, #kin103, #kin105, #kin301, #kin401, #kin403,
+#kin501, #kin503 {
 	padding: 10px 5px 5px 15px;
 	background-color: #D0F897;
 	align: center;
 }
 
-#kin102, #kin104, #kin201, #kin402 {
+#kin102, #kin104, #kin201, #kin402, #kin502 {
 	padding: 10px 5px 5px 15px;
 	background-color: #F7928D;
 	align: center;
@@ -533,9 +592,40 @@ body {
 			</div>
 		</div> <!-- end div row kin4 -->
 
+		<div class="row" style="display: none;" ID="DivKin05">
+			<div class="col-sm-4" ID="kin501">
+				<span style="color:#DA1F7B; font-weight:bold;">EXZON and Renniebeth</span>
+				<br /><span style="color:#3D0BA0">
+				<ul>
+				  <li> Renzo</li>
+				  <li> Zoren</li>
+				<ul><br /><br />
+				</span>
+			</div>
+			<div class="col-sm-4" ID="kin502">
+				<span style="color:#DA1F7B; font-weight:bold;">BRYAN and Jescy</span>
+				<br /><span style="color:#3D0BA0">
+				<ul>
+				  <li> Breanne</li>
+				  <li> Nica</li>
+				  <li> Jescyanne</li>
+				  <li> Junior</li>
+				<ul>
+				</span>
+			</div>
+			<div class="col-sm-4" ID="kin503">
+				<span style="color:#DA1F7B; font-weight:bold;">JHAY-AR and Lei</span>
+				<br /><span style="color:#3D0BA0">
+				<ul>
+				  <li> Olly</li>
+				<ul><br /><br /><br />
+				</span>
+			</div>
+
+		</div> <!-- end div row kin5 -->
 
 	</div>
-<!-- START divs row for third generation -->
+<!-- END divs row for third generation -->
 
 
 	<div class="container" id="Contain3">
